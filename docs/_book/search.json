@@ -103,5 +103,26 @@
     "title": "모델 구축의 기초",
     "section": "",
     "text": "파트 소개글\n\n\nChapter 1 에서 계량약리학과 관련 개념들을 톺아본다.\nChapter 2 에서 NONMEM 데이터셋에 대해 학습한다."
+  },
+  {
+    "objectID": "model_diagnosis.html",
+    "href": "model_diagnosis.html",
+    "title": "모델 진단 및 약동학-약력학 연계 모델",
+    "section": "",
+    "text": "파트 소개글\n\n\n?sec-evaluate_found 에서 모델 진단 및 평가 개론을 학습한다.\n?sec-diagnosis 에서 모델 적합 상태에 따른 진단을 학습한다."
+  },
+  {
+    "objectID": "summary.html#결론1",
+    "href": "summary.html#결론1",
+    "title": "맺음말",
+    "section": "결론1",
+    "text": "결론1\n본문본문"
+  },
+  {
+    "objectID": "summary.html#결론2",
+    "href": "summary.html#결론2",
+    "title": "맺음말",
+    "section": "결론2",
+    "text": "결론2\n본문본문"
   }
 ]
