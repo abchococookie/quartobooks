@@ -1,0 +1,107 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "quartobook_prac",
+    "section": "",
+    "text": "머리말\nQuarto를 활용해 책 발행하기 연습페이지입니다."
+  },
+  {
+    "objectID": "diagnosis.html#상태1",
+    "href": "diagnosis.html#상태1",
+    "title": "4  모델 적합 상태에 대한 진단",
+    "section": "4.1 상태1",
+    "text": "4.1 상태1\n본문본문"
+  },
+  {
+    "objectID": "diagnosis.html#진단1",
+    "href": "diagnosis.html#진단1",
+    "title": "4  모델 적합 상태에 대한 진단",
+    "section": "4.2 진단1",
+    "text": "4.2 진단1\n본문본문"
+  },
+  {
+    "objectID": "diagnosis.html#맺음말",
+    "href": "diagnosis.html#맺음말",
+    "title": "4  모델 적합 상태에 대한 진단",
+    "section": "4.3 맺음말",
+    "text": "4.3 맺음말\n본문본문"
+  },
+  {
+    "objectID": "evaluate_found.html#모델-진단과-평가의-일반-특성",
+    "href": "evaluate_found.html#모델-진단과-평가의-일반-특성",
+    "title": "3  모델 진단/평가 개론",
+    "section": "3.1 모델 진단과 평가의 일반 특성",
+    "text": "3.1 모델 진단과 평가의 일반 특성\n본문본문"
+  },
+  {
+    "objectID": "evaluate_found.html#모델-진단평가의-요소",
+    "href": "evaluate_found.html#모델-진단평가의-요소",
+    "title": "3  모델 진단/평가 개론",
+    "section": "3.2 모델 진단/평가의 요소",
+    "text": "3.2 모델 진단/평가의 요소\nPrimary Psychiatry (2013) 에 따르면 모델 진단 및 평가의 요소는 다음과 같다.\n\n요소1\n요소2\n요소3"
+  },
+  {
+    "objectID": "evaluate_found.html#맺음말",
+    "href": "evaluate_found.html#맺음말",
+    "title": "3  모델 진단/평가 개론",
+    "section": "3.3 맺음말",
+    "text": "3.3 맺음말\n본문본문\n\n\n\n\nPrimary Psychiatry. 2013. From Symptom Palliation to Disease Modification: Implications for Dementia Care. http://primarypsychiatry.com/from-symptom-palliation-to-disease-modification-implications-for-dementia-care/."
+  },
+  {
+    "objectID": "foundation.html#소개",
+    "href": "foundation.html#소개",
+    "title": "1  계량약리학과 관련 개념들",
+    "section": "1.1 소개",
+    "text": "1.1 소개\n본문"
+  },
+  {
+    "objectID": "foundation.html#혼합효과-모델링-mixed-effects-modeling",
+    "href": "foundation.html#혼합효과-모델링-mixed-effects-modeling",
+    "title": "1  계량약리학과 관련 개념들",
+    "section": "1.2 혼합효과 모델링 Mixed-effects modeling",
+    "text": "1.2 혼합효과 모델링 Mixed-effects modeling\n본문"
+  },
+  {
+    "objectID": "foundation.html#맺음말",
+    "href": "foundation.html#맺음말",
+    "title": "1  계량약리학과 관련 개념들",
+    "section": "1.3 맺음말",
+    "text": "1.3 맺음말\n본문본문\n\n\n\n\nDerendorf, H, and B Meibohm. 1999. “Modeling of Pharmacokinetic/Pharmacodynamic (PK/PD) Relationships: Concepts and Perspectives.” Pharmaceutical Research 16 (2): 176–85. https://doi.org/10.1023/a:1011907920641."
+  },
+  {
+    "objectID": "nonmem.html#필수-제어구문-작성-방법",
+    "href": "nonmem.html#필수-제어구문-작성-방법",
+    "title": "2  NONMEM 데이터셋",
+    "section": "2.1 필수 제어구문 작성 방법",
+    "text": "2.1 필수 제어구문 작성 방법\n본문본문"
+  },
+  {
+    "objectID": "nonmem.html#prob-레코드-작성",
+    "href": "nonmem.html#prob-레코드-작성",
+    "title": "2  NONMEM 데이터셋",
+    "section": "2.2 $PROB 레코드 작성",
+    "text": "2.2 $PROB 레코드 작성\n본문본문"
+  },
+  {
+    "objectID": "nonmem.html#data-레코드-작성",
+    "href": "nonmem.html#data-레코드-작성",
+    "title": "2  NONMEM 데이터셋",
+    "section": "2.3 $DATA 레코드 작성",
+    "text": "2.3 $DATA 레코드 작성\n본문본문"
+  },
+  {
+    "objectID": "nonmem.html#맺음말",
+    "href": "nonmem.html#맺음말",
+    "title": "2  NONMEM 데이터셋",
+    "section": "2.4 맺음말",
+    "text": "2.4 맺음말\n본문본문"
+  },
+  {
+    "objectID": "model_construction.html",
+    "href": "model_construction.html",
+    "title": "모델 구축의 기초",
+    "section": "",
+    "text": "파트 소개글\n\n\nChapter 1 에서 계량약리학과 관련 개념들을 톺아본다.\nChapter 2 에서 NONMEM 데이터셋에 대해 학습한다."
+  }
+]
