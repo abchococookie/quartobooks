@@ -1,0 +1,40 @@
+project:
+  type: book
+
+book:
+  title: "quartobook_prac"
+  author: "Jihee Han"
+  date: "10/17/2023"
+  
+  page-footer:
+    left: |
+      quartobook_prac written by Jihee Han
+    right: |
+      This book was built with <a href="https://quarto.org/">Quarto</a>
+
+  cover-image: cover.png
+  favicon: cover.png
+  
+  chapters: 
+    - index.qmd
+    - part: model_construction.qmd
+      chapters: 
+        - foundation.qmd
+        - nonmem.qmd
+    - part: model_diagnosis.qmd
+      chapters: 
+        - evaluate_found.qmd
+        - diagnosis.qmd
+    - summary.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
+
