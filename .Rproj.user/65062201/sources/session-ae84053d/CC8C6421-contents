@@ -1,0 +1,187 @@
+---
+title: "Jama_LODESTAR"
+author: "Jihee Han"
+format:
+  revealjs:
+    theme: default
+editor: source
+logo: zarathu_logo.png
+date: last-modified
+---
+
+## Introduction
+![](jama_lodestar_figs/jama_lodestar_summary.png)
+
+## Introduction{.smaller}
+#### Objective
+- To assess whether a treat-to-target strategy is noninferior to a strategy of high-intensity statins for long-term clinical outcomes in patients with coronary artery disease
+
+#### Study Design
+- Investigator-initiated, Open-label, Randomized, Multicenter, Noninferiority trial
+
+#### Participants
+- Patients with clinically diagnosed CAD
+
+## Methods{.smaller}
+#### Randomization and Study Procedures
+- 1:1 randomized in treat-to-target strategy or high-intensity strategy group
+- each group 1:1 randomized in rosuvastatin or atorvastatin
+
+## Methods{.smaller}
+#### Randomization and Study Procedures
+![](jama_lodestar_figs/jama_lodestar_fig1.png)
+
+## Methods{.smaller}
+#### Randomization and Study Procedures
+- high or moderate intensity according to the guideline for the treatment of blood cholesterol
+  - high: 20 mg of rosuvastatin or 40 mg of atrovastatin
+  - moderate: 10 mg of rosuvastatin or 20 mg of atrovastatin
+- target LDL-C level
+  - treat-to-target group: below 70 mg/dL
+```{r}
+#| eval: true
+#| echo: false
+#| output: true
+df <- data.frame(
+  uptitration = "70 mg/dL ~",
+  maintenance = "50 mg/dL ~ 70 mg/dL",
+  undertitration = "~ 50 mg/dL"
+)
+knitr::kable(df)
+```
+  - high-intensity group: maintenance of high-intensity statin therapy was recommended
+- Non-statin add-on therapy was not recommended strongly
+- other medical treatments allowed except for the change in the statin intensity
+
+## Methods{.smaller}
+- **Primary endpoint**: major adverse cardiac and cerebrovascular events defubed as a composite of all-cause death(cardiovascular or not), MI, stroke, and any coronary revascularization at 3 years
+
+
+:::: {.columns}
+
+::: {.column width="45%"}
+- **Secondary endpoint**
+(1) occurance of new-onset diabetes
+(2) hospitalization due to heart failure
+(3) deep vein thrombosis or pulmonary thromnoemnolism
+(4) endovascular revasculatization for perepheral artery disease
+:::
+
+::: {.column width="45%"}
+(5) aortic intervention or surgery
+(6) end-stage kidney disease
+(7) discontinuation of study drugs due to intolerance
+(8) cataract operation
+(9) composite of laboratory abnormalities
+:::
+
+::::
+
+
+## Methods{.smaller}
+#### Sample Size Calculation
+- expected event rate of the primary endpont at 3 years: 12% group
+- NI margin of 3.0 %
+- total 3686 patients was required with 2.5% one-sided alpha error rate and 80% power
+- considering 15% loss => total of 4400 patients was required
+
+## Methods{.smaller}
+#### Statistical Analysis
+1. **Kaplan-Meier curves** for a time-to-event analysis: cumulative incidence of the primary endpoint at 3 years
+2. **Test of NI** for the primary endpoint using Com-Nougue approach to estimating the z statisticc for the Kaplan-Meier failure rates with the Greenwood formula for estimating the standard error
+- perspecified subgroup analyses: performed for clinically relevant factors - age, sex, BMI, hypertension, diabete, chronic kidney disease, clinical pesentation at radomization, baseline LDL-C levels
+
+## Results{.smaller}
+#### Base
+![](jama_lodestar_figs/jama_lodestar_tb1.png)
+
+## Results{.smaller}
+#### Base
+- 98.7% completed the 3-year clinical follow-up
+
+::: {.panel-tabset}
+
+### figure
+![](jama_lodestar_figs/jama_lodestar_fig2a.png)
+
+### description
+- in treat-to-target group
+  - uptitrated in 17%, downtitrated in 9%m maintained in 73%
+  - high-intensity statin at 1 year: 53%, at 2 years: 55%, at 3-years: 56%
+- in high-intensity group
+  - high-intensity statin at 1 year: 93%, at 2 years: 91%, at 3-years: 89%
+  
+:::
+
+## Results{.smaller}
+#### Base
+
+::: {.panel-tabset}
+
+### figure
+![](jama_lodestar_figs/jama_lodestar_fig2b.png){.scrollable}
+
+### description
+- Ezetimibe: treat-to-target > high-intensity
+  - mostly as a comnimation therapy with high-intensity statin therapy
+- other cardiovascular medications were not statistically different
+
+:::
+
+## Results{.smaller}
+#### LDL-C level
+
+:::{.panel-tabset}
+
+### figure
+![](jama_lodestar_figs/jama_lodestar_fig3a.png){width="50%"}
+
+### description
+- 6 weeks: LDL-C level was significantly higher in the treat-to-target group than the high-intensity statin therapy group
+- after 6 weeks: no significant difference
+- overall period: no significant difference
+
+:::
+
+## Results{.smaller}
+#### LDL-C level
+![etb7](jama_lodestar_figs/jama_lodestar_etb7.png)
+- proportion of participants with LDL-C level below 70 mg/dL at 6 weeks and 3 months was significantly lower inthe treat-to-target group than the high-intensity group
+
+## Results{.smaller}
+#### Primary Endpoint
+
+:::: {.columns}
+
+::: {.column width="40%"}
+![](jama_lodestar_figs/jama_lodestar_tb2.png)
+:::
+
+::: {.column width="60%"}
+![](jama_lodestar_figs/jama_lodestar_fig3b.png)
+:::
+
+::::
+
+## Results{.smaller}
+#### Primary Endpoint
+- primary endpoint occurred in 8.3% of treat-to-target group and 8.5% of high-intensity group
+- difference upper CI was 1.5%, p <. 001 for NI
+
+#### Secondary Endpoint
+- no statistical difference
+- post-hoc analysis: (1) new-onset diabetes (2) amino-transferase (3) creatine kinase elevation (4) end-stage kidney disease were significantly lower in the treat-to-target group
+
+## Discussion{.smaller}
+#### Limitations
+1. open-label
+2. lower event rates than anticipated
+3. small num of events -> comparison of individual clinical outcomes within the primary endpoint was difficult
+4. recruited exclusively patients with CAD -> other subsets of patients(e.g., prevention)
+5. 60% of treat-to-target group achieved below 70mg/dL -> add-on therapy should be considered
+6. 3 years -> relatively short to reflect longer-term effects of 2 strategies
+
+## Discussion{.smaller}
+#### Conclusion
+- **treat-to-target LDL-C strategy of 50 to 70 mg/dL as the goal was NI to high-intensity statin therapy** for the 3 year composite of death, MI, stroke or coronary revascularization
+
