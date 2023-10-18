@@ -1,5 +1,6 @@
 project:
   type: book
+  output-dir: docs
 
 book:
   title: "quartobook_prac"
@@ -26,6 +27,7 @@ book:
         - evaluate_found.qmd
         - diagnosis.qmd
     - summary.qmd
+    - references.qmd
 
 bibliography: references.bib
 

@@ -8,8 +8,11 @@ author: "저자1"
 
 **PK-PD 모델링은 무엇인가?**
 
-![fig1. PK-PD modeling](figure/fig1_1.png)
-*그림 1.1 PK-PD 모델링의 개념(@derendorf1999modeling)*
+<figure style="text-align: center;">
+  <img src="figure/fig1_1.png" width="90%"></img>
+  <figcaption>그림 1.1 PK-PD 모델링의 개념(@derendorf1999modeling)</figcaption>
+</figure>
+
 
 ## 소개
 
